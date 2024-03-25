@@ -97,7 +97,7 @@ sleep 600 && ls -l ../logs/ | if [ $(ls -l ../logs/ | wc -l) -eq $total_files ];
 # if the bips command has finished, then we can move on to the next step which is parsing the log files.
 python3 combine_logs.py /Users/michael.skaro/Research/unattached_tickets/BIO-4793_run_bips_and_th_exec/logs/ /Users/michael.skaro/Research/unattached_tickets/BIO-4793_run_bips_and_th_exec/data/
 
-# now we will get the 
+
 
 
 
